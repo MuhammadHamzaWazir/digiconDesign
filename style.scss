@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #EBC310;
+
+body {
+  font: 100% $font-stack;
+  overflow-x: hidden;
+}
+
+.nav-container {
+    position: absolute;
+    width: 1440px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    nav {
+        display: flex;
+    }
+    .log Img {
+        position: absolute;
+        width: 131px;
+        height: 59px;
+        left: 114px;
+        top: 9px;
+    }
+}
